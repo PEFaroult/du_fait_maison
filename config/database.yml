@@ -48,13 +48,5 @@ test:
   encoding: unicode
   database: du_fait_maison_test
   pool: 5
-  username: jacobofernandez
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: du_fait_maison_production
-  pool: 5
-  username: jacobofernandez
+  username: 
   password:

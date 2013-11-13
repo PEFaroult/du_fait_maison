@@ -49,9 +49,4 @@ test:
   database: du_fait_maison_test
   pool: 5
   username: 
-<<<<<<< HEAD
   password:
-
-=======
-  password:
->>>>>>> 702159dff711db4665f5d122a88fa1f0f0c9a62c

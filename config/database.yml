@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: du_fait_maison_development
   pool: 5
-  username: du_fait_maison
+  username:
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,13 +48,5 @@ test:
   encoding: unicode
   database: du_fait_maison_test
   pool: 5
-  username: du_fait_maison
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: du_fait_maison_production
-  pool: 5
-  username: du_fait_maison
+  username:
   password:

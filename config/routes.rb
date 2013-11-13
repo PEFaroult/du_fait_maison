@@ -1,5 +1,6 @@
 DuFaitMaison::Application.routes.draw do
   get "users/new"
+  match '/signup',  to: 'users#new',            via: 'get'
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
